@@ -1,25 +1,17 @@
 
 import './App.css'
-
-import React from "react";
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Link
-} from "react-router-dom";
-import { Nav, Navbar,Container } from "react-bootstrap";
-import About from './components/About';
-import Home from './components/Home';
-import Contatti from './components/Contatti'
 import Menu from './Menu'
+// import Menu1 from './Menu1'
+
 
 function App() {
   return (
    
-    <Router>
-       <Menu/>
+    
+       
       <div className="App">
+        
+        <Menu/>
         {/* <Navbar bg="dark" variant="dark" expand="lg">
           <Container>
             <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
@@ -34,14 +26,15 @@ function App() {
           </Container>
         </Navbar> */}
 
-        <Routes>
+        {/* <Routes>
           <Route path="/about" element={<About />} />           
           <Route path="/contatti" element={<Contatti />} />         
           <Route path="/" element={<Home />} />
             
-        </Routes>
-      </div>
-    </Router>
+        </Routes> */}
+      
+    </div>
+
   );
 }
 
