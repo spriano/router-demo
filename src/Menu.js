@@ -60,19 +60,19 @@ function Menu() {
       </Navbar>
 
 <Routes>
-               {/* {
+                {
                 menuData.map((item)=>(
                   <Route path={item.path} key={item.name} component={item.component}/>
                  
       
                  
-                ))} */}
+                ))} 
 
               
-          <Route path="/about" element={<About />} />           
+          {/* <Route path="/about" element={<About />} />           
           <Route path="/contatti" element={<Contatti />} />         
           <Route path="/" element={<Home />} />
-          <Route path="/commenti" element={<Commenti/>} /> 
+          <Route path="/commenti" element={<Commenti/>} />  */}
            
 
 </Routes>
